@@ -1,15 +1,8 @@
 import * as React from "react"
 import {
   BookOpen,
-  Bot,
-  Command,
-  Frame,
-  LifeBuoy,
-  Map,
-  PieChart,
   Send,
   Settings2,
-  SquareTerminal,
   Activity,
   ChartColumn,
   Waves
@@ -40,7 +33,6 @@ const data = {
       title: "Treningi",
       url: "#",
       icon: Activity,
-      isActive: true,
       items: [
         {
           title: "Dodaj",
@@ -56,6 +48,7 @@ const data = {
       title: "Statystyki",
       url: "#",
       icon: ChartColumn,
+      isActive: true,
       items: [
         {
           title: "Tygodniowe",

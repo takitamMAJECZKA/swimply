@@ -1,10 +1,9 @@
-import { Button } from "@/Components/ui/button"
+import SideBar from '../Components/SideBar'
 
 
 export default function Stats(){
     return(<div id="statsPage">
-        <h1>Stats</h1>
-        <Button>Click me!</Button>
+        <SideBar></SideBar>
     </div>
     )
 }

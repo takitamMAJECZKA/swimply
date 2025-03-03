@@ -1,7 +1,7 @@
-import Home from './Pages/Home'
-import Login from './Pages/Login'
-import Stats from './Pages/Stats'
-import Account from './Pages/Account'
+import Home from './components/pages/Home'
+import Login from './components/pages/Login'
+import Stats from './components/pages/Stats'
+import Account from './components/pages/Account'
 
 
 import {HashRouter as Router, Routes, Route } from 'react-router-dom'

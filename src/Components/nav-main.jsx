@@ -19,7 +19,7 @@ import {
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
 
-export default function NavMain({
+export function NavMain({
   items
 }) {
   return (

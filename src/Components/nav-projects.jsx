@@ -17,7 +17,7 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar"
 
-export default function NavProjects({
+export function NavProjects({
   projects
 }) {
   const { isMobile } = useSidebar()

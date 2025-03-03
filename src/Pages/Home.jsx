@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom"
-import AddNewWorkout from "../components/AddNewWorkout"
-import Workout from "../components/Workout"
+import AddNewWorkout from "/src/components/AddNewWorkout.jsx"
+import Workout from "/src/components/Workout.jsx"
 
 
 export default function Home(){

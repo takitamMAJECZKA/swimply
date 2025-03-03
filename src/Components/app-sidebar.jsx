@@ -121,7 +121,7 @@ const data = {
   ],
 }
 
-export function AppSidebar({
+export default function AppSidebar({
   ...props
 }) {
   return (
